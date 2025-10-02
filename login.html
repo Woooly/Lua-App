@@ -4,25 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lua App</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- Vídeo de fundo -->
-    <video id="background-video" autoplay muted loop playsinline>
-        <source src="background-video.mp4" type="video/mp4">
-        <source src="background-video.webm" type="video/webm">
-        Seu navegador não suporta vídeos HTML5.
-    </video>
+    <div class="login-page-video">
+        <video autoplay loop muted class="background-video">
+            <source src="assets/background.mp4" type="video/mp4">
+            Seu navegador não suporta vídeos.
+        </video>
+    </div>
 
     <header>
         <h1>Lua App</h1>
     </header>
     
     <main>
-        <section>
-            <h2>Conteúdo Principal</h2>
-            <p>Sua aplicação Lua aqui.</p>
-        </section>
+        <div class="login-container">
+            <h2>Login</h2>
+            <!-- Aqui você adicionará os campos de login -->
+        </div>
     </main>
     
     <footer>
