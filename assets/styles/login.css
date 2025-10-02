@@ -1,3 +1,9 @@
+/*
+Projeto: Lua-App
+Licença: MIT License
+Copyright (c) 2025 Gabriel Marinho
+*/
+
 * {
     margin: 0;
     padding: 0;
@@ -132,7 +138,7 @@ main {
     height: 100vh;
     margin: 0;
     padding: 0;
-    background-image: url('assets/backgroundvideo.jpeg'); /* Imagem de fallback */
+    background-image: url('assets/backgroundvideo.jpeg');
     background-size: cover;
     background-position: center;
 }
@@ -160,8 +166,17 @@ main {
     padding: 10px 0;
     font-size: 12px;
     font-weight: 300;
-    z-index: 1;
+    z-index: 10;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #ccc;
 }
 
 .footer p {

@@ -1,11 +1,17 @@
+<!--
+Projeto: Lua-App
+Licença: MIT License
+Copyright (c) 2025 Gabriel Marinho
+-->
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lua</title>
-    <link rel="icon" href="assets/lua.ico">
-    <link rel="stylesheet" href="login.css">
+    <link rel="icon" href="assets/images/lua.ico">
+    <link rel="stylesheet" href="assets/styles/login.css">
 </head>
 <body>
 
@@ -18,7 +24,7 @@
                 <h2 class="login-title">Acesse a sua conta</h2>
                 <p class="login-subtitle">Digite suas credenciais para acessar</p>
                 
-                <form action="dashboard.html" method="GET">
+                <form action="pages/transition.html" method="GET">
                     <div class="form-group">
                         <input type="text" placeholder="Login" required>
                         <span class="user-icon">👤</span>
@@ -37,23 +43,24 @@
             </div>
         </div>
         
-        <div class="login-direita">
-            <video autoplay loop muted playsinline class="background-video" preload="auto">
-                <source data-src="assets/background.mp4" type="video/mp4">
-                <source data-src="assets/background.webm" type="video/webm">
-                Seu navegador não suporta vídeos.
-            </video>
-        </div>
+    <div class="login-direita">
+        <video autoplay loop muted playsinline class="background-video" preload="auto">
+            <source data-src="assets/videos/background.mp4" type="video/mp4">
+            <source data-src="assets/videos/background.webm" type="video/webm">
+            Seu navegador não suporta vídeos.
+        </video>
+    </div>
     </main>
 
     <footer class="footer">
         <p>&copy; 2025 Woooly. Todos os direitos reservados.</p>
+        <p><a href="LICENSE" target="_blank">Termos de Licença</a></p>
     </footer>
 
-    <script src="./login.js"></script>
+    <script src="scripts/login.js"></script>
 
     <a href="https://wa.me/5562996453737" class="whatsapp-icon" target="_blank" title="Fale conosco no WhatsApp">
-    <img src="assets/whatsapp.png" alt="WhatsApp" />
+    <img src="assets/images/whatsapp.png" alt="WhatsApp" />
     </a>
 
 </body>

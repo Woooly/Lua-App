@@ -1,0 +1,30 @@
+/*
+Projeto: Lua-App
+Licença: MIT License
+Copyright (c) 2025 Gabriel Marinho
+*/ 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #040205; 
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.transitionmp4 {
+    background: #040205;
+    display: block;
+    margin: 0 auto; 
+    height: auto; 
+}

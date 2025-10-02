@@ -1,3 +1,9 @@
+/*
+Projeto: Lua-App
+Licença: MIT License
+Copyright (c) 2025 Gabriel Marinho
+*/        
+        
         document.addEventListener("DOMContentLoaded", function () {
             const video = document.querySelector(".background-video");
             const sources = video.querySelectorAll("source");
