@@ -23,29 +23,12 @@ main {
     left: 0;
     width: 50%;
     height: 100vh;
-    background: linear-gradient(135deg, #1e607e 0%, #1f70b3 100%);
+    background: linear-gradient(135deg, #000000 0%, #000000 100%);
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
     z-index: 2;
-}
-
-.login-esquerda::before {
-    content: '';
-    position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 200%;
-    height: 200%;
-    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="40" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1"/><circle cx="50" cy="50" r="30" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1"/><circle cx="50" cy="50" r="20" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1"/></svg>') repeat;
-    animation: rotate 60s linear infinite;
-    z-index: 1;
-}
-
-@keyframes rotate {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
 }
 
 .login-container {
