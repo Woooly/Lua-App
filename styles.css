@@ -1,9 +1,34 @@
-#background-video {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1;
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lua App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Vídeo de fundo -->
+    <video id="background-video" autoplay muted loop playsinline>
+        <source src="background-video.mp4" type="video/mp4">
+        <source src="background-video.webm" type="video/webm">
+        Seu navegador não suporta vídeos HTML5.
+    </video>
+
+    <header>
+        <h1>Lua App</h1>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Conteúdo Principal</h2>
+            <p>Sua aplicação Lua aqui.</p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Lua App</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
