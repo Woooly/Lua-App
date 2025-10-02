@@ -5,9 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lua App</title>
     <link rel="icon" href="assets/lua.ico">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="login.css">
 </head>
 <body>
+
+    <header>
+    </header>
+
     <main>
         <div class="login-esquerda">
             <div class="login-container">
@@ -16,7 +20,7 @@
                 
                 <form>
                     <div class="form-group">
-                        <input type="email" placeholder="usuario@dominio.com.br" required>
+                        <input type="text" placeholder="Login" required>
                         <span class="user-icon">👤</span>
                     </div>
                     <div class="form-group">
@@ -41,18 +45,24 @@
             </video>
         </div>
     </main>
+
+    <footer>
+
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             const video = document.querySelector(".background-video");
             const sources = video.querySelectorAll("source");
 
             sources.forEach(source => {
-                source.src = source.dataset.src || source.src;
-            });
-
-            video.load();
-            video.play();
+                source.src = source.dataset.src;
         });
+
+        video.load();
+        video.play();
+    });
     </script>
+
+    </footer>
+
 </body>
 </html>
